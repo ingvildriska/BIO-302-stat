@@ -14,6 +14,25 @@ library(biostats.tutorials)
 publication_bias_app()
 
 
-# github
+# Installing and setting up github
 
-install.packages("usethis")
+# install.packages("usethis")
+
+library(usethis)
+use_git_config(
+  user.name = "ingvildriska", 
+  user.email = "iri018@uib.no"
+)
+
+usethis::create_github_token()
+gitcreds::gitcreds_set()
+
+
+gitcreds::gitcreds_set()
+git_vaccinate()
+
+usethis::use_git()
+
+
+
+
