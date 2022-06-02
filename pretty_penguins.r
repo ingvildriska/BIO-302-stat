@@ -16,3 +16,5 @@ dat %>% ggplot() +
   aes(x = species, y = body_mass_g, fill = species) +
   geom_histogram() + 
   theme_bw()
+
+# :)
